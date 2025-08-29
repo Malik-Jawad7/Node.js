@@ -23,6 +23,7 @@ const paymentSchema = new mongoose.Schema(
 
 const Payment = mongoose.model("Payment", paymentSchema);
 
+
 // Create Payment Intent (Live)
 router.post("/create-payment", async (req, res) => {
   try {
