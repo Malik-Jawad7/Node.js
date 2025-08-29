@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.mjs",
-    "dev": "nodemon index.mjs"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node index.mjs",
+  "dev": "nodemon index.mjs",
+  "build": "echo \"No build step needed for this project\""
+},
   "author": "",
   "license": "ISC",
   "description": "",
